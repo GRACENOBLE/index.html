@@ -1,0 +1,7 @@
+#categories, #cart {
+    display: inline-block;
+}
+
+#cart {
+    float: right;
+}
