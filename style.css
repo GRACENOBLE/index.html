@@ -5,3 +5,14 @@
 #cart {
     float: right;
 }
+
+#categories {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    border: solid;
+
+}
