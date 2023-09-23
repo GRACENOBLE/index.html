@@ -33,3 +33,7 @@ ul li img {
     width: 30px;
     margin-right: 10px;
 }
+
+ul li p {
+    display: none;
+}
