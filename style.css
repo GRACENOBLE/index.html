@@ -6,6 +6,10 @@
     float: right;
 }
 
+body {
+    background-image: url("background_immage.jpeg");
+  }
+
 .categories {
     width: 50px;
     height: 400px;
