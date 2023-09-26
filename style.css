@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*box-sizing: border-box;*/
+}
+
 #categories, #cart {
     display: inline-block;
     cursor: pointer;
@@ -50,5 +56,5 @@ ul li p {
     width: 225px;
 }
 .side_nav:hover ul li p{
-    display: block;
+    display: inline-block;
 }
