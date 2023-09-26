@@ -4,10 +4,11 @@
 
 #cart {
     float: right;
+    text-align: center;
 }
 
 body {
-    background-image: url("Images/background_image.jpeg");
+    background-image: url("Images/5883.jpg");
     background-size: cover;
   }
 
