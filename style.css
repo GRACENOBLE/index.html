@@ -1,10 +1,12 @@
 #categories, #cart {
     display: inline-block;
+    cursor: pointer;
 }
 
 #cart {
     float: right;
     text-align: center;
+    cursor: pointer;
 }
 
 body {
@@ -26,3 +28,10 @@ ul {
     padding: 0 15px;
 }
 
+ul li {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    cursor: pointer;
+}
