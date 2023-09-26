@@ -19,17 +19,17 @@ body {
     width: 55px;
     top: 80px;
     left: 0;
-    backdrop-filter: blur(5px);
-    
+    backdrop-filter: blur(10px);
+    transition: width 0.5s;
 }
 
 ul {
     list-style: none;
-    padding: 0 15px;
+    padding: 10px;
 }
 
 ul li {
-    margin: 5px 0;
+    margin: 40px 0;
     display: flex;
     align-items: center;
     justify-content:flex-start;
@@ -43,4 +43,12 @@ ul li img {
 
 ul li p {
     white-space: nowrap;
+    display: none;
+    transition: display 0.5s;
+}
+.side_nav:hover{
+    width: 225px;
+}
+.side_nav:hover ul li p{
+    display: block;
 }
