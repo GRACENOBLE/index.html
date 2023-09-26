@@ -4,9 +4,20 @@
     /*box-sizing: border-box;*/
 }
 
-#categories, #cart {
+#categories, #logo, #cart {
     display: inline-block;
     cursor: pointer;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display:flex;
+    align-items:baseline;
+    font-size:x-large;
 }
 
 #cart {
