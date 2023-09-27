@@ -32,6 +32,7 @@ body {
   }
 
 .side_nav {
+    position: absolute;
     /*border-style: solid;*/
     width: 55px;
     top: 80px;
@@ -68,4 +69,76 @@ ul li p {
 }
 .side_nav:hover ul li p{
     display: inline-block;
+}
+
+.flex-container {
+    border: 6px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    margin-left: 60px;
+}
+
+.item-1{
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
+    backdrop-filter: blur(10px);
+}
+
+.item-2{
+    backdrop-filter: blur(10px);
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
+}
+
+.item-3{
+    backdrop-filter: blur(10px);
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
+}
+
+.item-4{
+    backdrop-filter: blur(10px);
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
+}
+
+.item-5{
+    backdrop-filter: blur(10px);
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
+}
+
+.item-6{
+    backdrop-filter: blur(10px);
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
+}
+
+.item-7{
+    backdrop-filter: blur(10px);
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
+}
+
+.item-8{
+    backdrop-filter: blur(10px);
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
+}
+
+.item-9{
+    backdrop-filter: blur(10px);
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
 }
