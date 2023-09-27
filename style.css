@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 #categories, #logo, #cart {
@@ -39,6 +39,7 @@ body {
     left: 0;
     backdrop-filter: blur(10px);
     transition: width 0.5s;
+    box-sizing: border-box;
 }
 
 ul {
@@ -73,6 +74,7 @@ ul li p {
 
 .flex-container {
     border: 6px solid black;
+    border-style: fit-content;
     display: flex;
     justify-content: center;
     flex-wrap:wrap;
@@ -141,4 +143,9 @@ ul li p {
     width: 300px;
     height: 300px;
     border: 6px solid white;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
 }
