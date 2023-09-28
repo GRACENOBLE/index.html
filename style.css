@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 #categories, #logo, #cart {
@@ -33,6 +34,7 @@ body {
 
 .side_nav {
     position: absolute;
+    z-index: +1;
     /*border-style: solid;*/
     width: 55px;
     top: 80px;
