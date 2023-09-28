@@ -11,8 +11,11 @@
 }
 
 #header {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
+    backdrop-filter: blur(10px);
 }
 
 #logo {
@@ -33,11 +36,11 @@ body {
   }
 
 .side_nav {
-    position: absolute;
-    z-index: +1;
+    position: sticky;
+    z-index: -1;
     /*border-style: solid;*/
     width: 55px;
-    top: 80px;
+    top: 50px;
     left: 0;
     backdrop-filter: blur(10px);
     transition: width 0.5s;
@@ -75,6 +78,8 @@ ul li p {
 }
 
 .flex-container {
+    position:absolute;
+    top: 100px;
     border: 6px solid black;
     border-style: fit-content;
     display: flex;
@@ -82,6 +87,7 @@ ul li p {
     flex-wrap:wrap;
     justify-content: flex-start;
     margin-left: 60px;
+    z-index: -5;
 }
 
 .item-1{
