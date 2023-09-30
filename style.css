@@ -18,6 +18,12 @@
     backdrop-filter: blur(10px);
 }
 
+#header button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 #logo {
     display:flex;
     align-items:baseline;
@@ -27,7 +33,7 @@
 #cart {
     float: right;
     text-align: center;
-    cursor: pointer;
+    
 }
 
 body {
@@ -37,7 +43,7 @@ body {
 
 .side_nav {
     position: sticky;
-    z-index: -1;
+    z-index: +1;
     /*border-style: solid;*/
     width: 55px;
     top: 50px;
@@ -80,7 +86,7 @@ ul li p {
 .flex-container {
     position:absolute;
     top: 100px;
-    border: 6px solid black;
+    border: none;
     border-style: fit-content;
     display: flex;
     justify-content: center;
@@ -93,7 +99,7 @@ ul li p {
 .item-1{
     width: 300px;
     height: 300px;
-    border: 6px solid white;
+    border: 1px solid red;
     backdrop-filter: blur(10px);
 }
 
@@ -101,56 +107,56 @@ ul li p {
     backdrop-filter: blur(10px);
     width: 300px;
     height: 300px;
-    border: 6px solid white;
+    border: 1px solid red;
 }
 
 .item-3{
     backdrop-filter: blur(10px);
     width: 300px;
     height: 300px;
-    border: 6px solid white;
+    border: 1px solid red;
 }
 
 .item-4{
     backdrop-filter: blur(10px);
     width: 300px;
     height: 300px;
-    border: 6px solid white;
+    border: 1px solid red;
 }
 
 .item-5{
     backdrop-filter: blur(10px);
     width: 300px;
     height: 300px;
-    border: 6px solid white;
+    border: 1px solid red;
 }
 
 .item-6{
     backdrop-filter: blur(10px);
     width: 300px;
     height: 300px;
-    border: 6px solid white;
+    border: 1px solid red;
 }
 
 .item-7{
     backdrop-filter: blur(10px);
     width: 300px;
     height: 300px;
-    border: 6px solid white;
+    border: 1px solid red;
 }
 
 .item-8{
     backdrop-filter: blur(10px);
     width: 300px;
     height: 300px;
-    border: 6px solid white;
+    border: 1px solid red;
 }
 
 .item-9{
     backdrop-filter: blur(10px);
     width: 300px;
     height: 300px;
-    border: 6px solid white;
+    border: 1px solid red;
 }
 
 .search {
